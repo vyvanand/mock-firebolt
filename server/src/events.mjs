@@ -25,6 +25,7 @@ import * as userManagement from './userManagement.mjs';
 import { eventTriggers } from './triggers.mjs';
 import { logger } from './logger.mjs';
 import * as fireboltOpenRpc from './fireboltOpenRpc.mjs'
+import { config } from './config.mjs'
 
 // Maps full userIds to maps which map event listner request method
 // name (e.g., lifecycle.onInactive) to message id (e.g., 17)
